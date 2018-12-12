@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    model = {"title":"Welcome Sean Ardley to our Github based program."}
+    model = {"title":"Welcome Jenkins Ardley to the AppEngine autoscaled page. Don't forget to aim the deploy script at your personal CSR repo."}
     return render_template('index.html', model=model)
 
 
